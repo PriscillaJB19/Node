@@ -8,11 +8,16 @@ pipeline {
     
     environment {
         PROJECT_ROOT = 'ProyectoNode'
-        REGISTRY = 'priscillajb/node-app'
+        REGISTRY = 'priscillajb/nodeapp'
     }
     
     stages{
 
+		stage('Install'){
+            steps{
+				Dependencies(project_root:"${PROJECT_ROOT}")
+            }
+    }
 
     	stage('Build'){
             steps{
