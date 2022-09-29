@@ -8,7 +8,7 @@ pipeline {
 
     
     environment {
-        PROJECT_ROOT = 'proyectonode/node_modules/debug'
+        PROJECT_ROOT = 'Node_Prueba/ProyectoNode/node_modules/debug/'
         REGISTRY = 'priscillajb/nodeapp'
     }
     
