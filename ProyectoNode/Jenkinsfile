@@ -15,7 +15,7 @@ pipeline {
 
 		stage('Install'){
             steps{
-				Dependencies()
+				Dependencies(project_root:"${PROJECT_ROOT}")
             }
     }
 
