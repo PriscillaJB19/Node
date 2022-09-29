@@ -2,9 +2,10 @@
 pipeline {
     agent any
     
-    tools{
-        NodeJS 'NodeJS'
+    tools {
+	  nodejs 'NodeJS'
     }
+
     
     environment {
         PROJECT_ROOT = './ProyectoNode'
