@@ -14,11 +14,7 @@ pipeline {
     
     stages{
 
-		stage('Install'){
-            steps{
-				Dependencies(project_root:PROJECT_ROOT)
-            }
-    }
+
 
     	stage('Build'){
             steps{
