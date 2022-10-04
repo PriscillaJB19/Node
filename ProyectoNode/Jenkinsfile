@@ -30,5 +30,11 @@ pipeline {
             Push(registry:"${REGISTRY}",buildNumber:"${BUILD_NUMBER}")
         }
     }
+	    
+    stage('Run'){
+        steps{
+            Run(registry:"${REGISTRY}",buildNumber:"${BUILD_NUMBER}")
+        }
+    }	    
 }
 }
