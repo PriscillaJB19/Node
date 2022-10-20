@@ -1,4 +1,4 @@
-pipelineJob('Prueba_Node'){
+pipelineJob('Prueba_DSL'){
   definition{
     cpsScm{
       scm{
